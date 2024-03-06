@@ -42,6 +42,20 @@ import optuna
 
 
 def train(args, model, device, train_loader, optimizer, epoch):
+    """
+    Trains the model for one epoch.
+
+    Args:
+        args: Command-line arguments.
+        model (Net): The neural network model to be trained.
+        device (torch.device): The device to perform the training on (CPU or CUDA).
+        train_loader (DataLoader): The DataLoader for training data.
+        optimizer (torch.optim.Optimizer): The optimizer for updating model parameters.
+        epoch (int): The current epoch number.
+
+    Trains the model on the training dataset and logs the training progress.
+    """
+    
     model.train()
     # start a new wandb run to track this script
     """wandb.init(project="my-plr-ml-project",
@@ -77,6 +91,21 @@ def train(args, model, device, train_loader, optimizer, epoch):
 
 
 def test(model, device, test_loader, epoch):
+    """
+    Evaluates the model on the test dataset.
+
+    Args:
+        model (Net): The trained neural network model.
+        device (torch.device): The device to perform the evaluation on (CPU or CUDA).
+        test_loader (DataLoader): The DataLoader for test data.
+        epoch (int): The current epoch number.
+
+    Returns:
+        float: The accuracy of the model on the test dataset.
+    
+    Evaluates the model's performance on the test set and logs the results.
+    """
+
     model.eval()
     test_loss = 0
     correct = 0
@@ -105,6 +134,14 @@ def test(model, device, test_loader, epoch):
 
 
 def main():
+    """
+    The main function that sets up the training and testing environment, parses command-line arguments,
+    and initiates the training and testing process.
+
+    It initializes the model, data loaders, optimizer, and scheduler, and then starts the training process.
+    It also handles hyperparameter optimization using Optuna.
+    """
+
     # Training settings
     parser = argparse.ArgumentParser(description="PyTorch MNIST Example")
     parser.add_argument(
@@ -155,6 +192,24 @@ def main():
 
 
     def objective(trial):
+        """
+        Defines the objective function for hyperparameter optimization using Optuna.
+
+        This function sets up the model, optimizer, and learning rate scheduler with hyperparameters
+        suggested by Optuna. It then trains the model for a number of epochs and evaluates its
+        performance on the test set. The function returns the accuracy of the model on the test set,
+        which serves as the value to be optimized by Optuna.
+
+        Args:
+            trial (optuna.trial.Trial): An Optuna trial object which suggests hyperparameters.
+
+        Returns:
+            float: The accuracy of the model on the test dataset, which Optuna will attempt to maximize.
+
+        The function trains the model using the specified hyperparameters and evaluates its performance,
+        reporting the results back to Optuna. It also includes functionality to prune trials that do not
+        meet certain criteria, enhancing the efficiency of the hyperparameter optimization process.
+        """
         model = Net().to(device)
 
         lr = trial.suggest_float("lr", 1e-6, 1e-2)

@@ -9,6 +9,21 @@ import time
 
 
 class Net(nn.Module):
+    """
+    A convolutional neural network model designed for image classification tasks.
+
+    The network consists of two convolutional layers followed by two fully connected layers,
+    with dropout layers to reduce overfitting. This model is specifically tailored for
+    processing 2D images (e.g., MNIST dataset images).
+
+    Attributes:
+        conv1 (nn.Conv2d): The first convolutional layer.
+        conv2 (nn.Conv2d): The second convolutional layer.
+        dropout1 (nn.Dropout): Dropout layer after the first convolutional layer.
+        dropout2 (nn.Dropout): Dropout layer after the second convolutional layer.
+        fc1 (nn.Linear): The first fully connected layer.
+        fc2 (nn.Linear): The second fully connected layer.
+    """
     def __init__(self):
         super(Net, self).__init__()
         self.conv1 = nn.Conv2d(1, 32, 3, 1)
@@ -19,6 +34,15 @@ class Net(nn.Module):
         self.fc2 = nn.Linear(128, 10)
 
     def forward(self, x):
+        """
+        Defines the forward pass of the network.
+
+        Args:
+            x (torch.Tensor): The input tensor containing image data.
+
+        Returns:
+            torch.Tensor: The output tensor providing the log-probabilities of the classes.
+        """
         x = self.conv1(x)
         x = F.relu(x)
         x = self.conv2(x)
@@ -35,6 +59,17 @@ class Net(nn.Module):
 
 
 def main():
+    """
+    Main function to demonstrate the usage of the Net class for processing images.
+
+    This function sets up a PyTorch training environment using the MNIST dataset,
+    initializes a Net model, and performs a series of timed inference operations to
+    demonstrate the impact of GPU warm-up on processing speed. It leverages both CPU
+    and GPU timers to measure the performance before and after GPU warm-up.
+
+    The function demonstrates the timing of single and batched inference operations
+    with and without additional noise added to the input data.
+    """
     # Training settings
     parser = argparse.ArgumentParser(description="PyTorch MNIST Example")
     parser.add_argument(
