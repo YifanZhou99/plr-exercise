@@ -1,0 +1,120 @@
+{
+    "os": "Linux-5.15.0-97-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2024-03-06T16:51:21.657083",
+    "startedAt": "2024-03-06T16:51:20.981035",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "./scripts/train.py",
+    "codePathLocal": "scripts/train.py",
+    "codePath": "scripts/train.py",
+    "git": {
+        "remote": "https://github.com/YifanZhou99/plr-exercise.git",
+        "commit": "7082835738f1a262a8944381d30eddf68b9a544e"
+    },
+    "email": "75839011+YifanZhou99@users.noreply.github.com",
+    "root": "/home/yifanzhou/Documents/GitHub/plr-exercise",
+    "host": "yifanzhou-ThinkPad-X1-Carbon-Gen-10",
+    "username": "yifanzhou",
+    "executable": "/home/yifanzhou/venv/plr/bin/python3",
+    "cpu_count": 12,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2394.474375,
+        "min": 400.0,
+        "max": 4050.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 1001.638,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 4700.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2500.0,
+            "min": 400.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 97.87200164794922,
+            "used": 46.23794937133789
+        }
+    },
+    "memory": {
+        "total": 31.04525375366211
+    }
+}

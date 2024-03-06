@@ -186,3 +186,6 @@ This may include:
 - Measuring the time
 
 ## Other usefull tasks [Bonus Points]
+
+### Task 6: Visualize Model Predictions
+To add visualization to your script, especially for tracking the training and testing process, you can leverage Weights & Biases (wandb), which is already included in your script. You can enhance the visualization aspect by logging images along with their predicted and actual labels to visualize the model's performance more intuitively.
