@@ -11,3 +11,10 @@
 2024-03-06 17:54:22,674 INFO    MainThread:12085 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
 config: {'learning_rate': 0.0024075495340476634, 'epochs': 1, 'gamma': 0.3100828676515615}
 2024-03-06 17:54:22,674 INFO    MainThread:12085 [wandb_init.py:init():611] wandb.init() called when a run is still active
+2024-03-06 17:55:19,640 INFO    MainThread:12085 [wandb_run.py:_finish():1970] finishing run zhou-yifan223/plr_exercise/vtivp0x8
+2024-03-06 17:55:19,641 INFO    MainThread:12085 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-06 17:55:19,641 INFO    MainThread:12085 [wandb_run.py:_restore():2193] restore
+2024-03-06 17:55:19,641 INFO    MainThread:12085 [wandb_run.py:_restore():2199] restore done
+2024-03-06 17:55:32,445 INFO    MainThread:12085 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-06 17:55:32,445 INFO    MainThread:12085 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-06 17:55:32,449 INFO    MainThread:12085 [wandb_run.py:_footer_sync_info():3810] logging synced files

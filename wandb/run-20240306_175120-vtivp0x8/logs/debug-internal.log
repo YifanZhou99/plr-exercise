@@ -2523,3 +2523,498 @@
 2024-03-06 17:54:54,689 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
 2024-03-06 17:54:54,690 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
 2024-03-06 17:54:54,690 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:55,499 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:54:55,500 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:54:55,501 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:54:55,502 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:55,650 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:54:56,525 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:54:56,526 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:54:56,526 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:54:56,527 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:56,652 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:54:56,652 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:54:57,156 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:54:57,157 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:54:57,157 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:54:57,157 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:57,514 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:54:57,515 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:54:57,515 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:54:57,515 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:57,652 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:54:57,866 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:54:57,867 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:54:57,867 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:54:57,867 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:58,220 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:54:58,220 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:54:58,221 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:54:58,221 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:58,559 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:54:58,560 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:54:58,560 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:54:58,560 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:58,653 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:54:58,653 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:54:58,918 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:54:58,919 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:54:58,919 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:54:58,920 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:59,262 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:54:59,263 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:54:59,263 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:54:59,263 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:59,621 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:54:59,621 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 17:54:59,622 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:54:59,622 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:54:59,622 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:54:59,654 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:00,005 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:00,006 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:00,006 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:00,006 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:00,374 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:00,375 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:00,375 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:00,375 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:00,654 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:00,655 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:00,767 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:00,768 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:00,768 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:00,769 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:01,219 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:01,220 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:01,220 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:01,220 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:01,655 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:01,675 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:01,675 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:01,675 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:01,676 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:02,148 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:02,149 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:02,149 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:02,150 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:02,538 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:02,539 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:02,539 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:02,539 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:02,656 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:02,656 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:02,953 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:02,954 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:02,955 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:02,955 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:03,366 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:03,367 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:03,367 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:03,367 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:03,657 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:03,805 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:03,806 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:03,806 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:03,806 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:04,216 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:04,217 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:04,217 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:04,218 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:04,657 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:04,658 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:04,677 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:04,678 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 17:55:04,678 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:04,678 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:04,679 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:05,203 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:05,204 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:05,204 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:05,204 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:05,658 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:05,777 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:05,778 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:05,778 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:05,778 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:06,243 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:06,244 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:06,245 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:06,245 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:06,659 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:06,668 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:06,700 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:06,700 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:06,700 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:06,701 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:06,706 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-06 17:55:06,707 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: stop_status
+2024-03-06 17:55:06,709 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-06 17:55:07,345 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:07,345 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:07,345 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:07,346 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:07,660 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:07,908 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:07,909 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:07,909 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:07,909 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:08,477 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:08,478 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:08,478 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:08,478 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:08,661 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:08,661 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:09,063 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:09,064 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:09,064 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:09,064 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:09,642 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:09,643 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:09,643 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:09,644 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:09,661 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:10,232 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:10,233 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 17:55:10,233 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:10,233 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:10,234 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:10,662 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:10,662 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:10,826 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:10,827 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:10,827 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:10,828 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:11,459 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:11,460 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:11,460 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:11,461 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:11,663 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:12,035 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:12,035 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:12,035 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:12,036 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:12,571 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:12,572 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:12,572 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:12,573 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:12,664 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:12,665 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:13,097 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:13,097 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:13,097 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:13,098 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:13,635 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:13,636 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:13,636 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:13,636 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:13,665 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:14,163 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:14,163 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:14,164 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:14,164 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:14,666 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:14,666 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:14,685 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:14,685 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:14,686 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:14,686 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:15,227 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:15,228 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:15,228 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:15,229 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:15,667 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:15,797 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:15,798 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 17:55:15,798 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:15,799 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:15,799 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:16,668 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:16,668 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:19,527 DEBUG   SenderThread:12119 [sender.py:send():378] send: files
+2024-03-06 17:55:19,527 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file media/images/test_images_514_7b1534ecab40649eeaba.png with policy now
+2024-03-06 17:55:19,531 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,532 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,533 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,533 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,539 DEBUG   SenderThread:12119 [sender.py:send():378] send: files
+2024-03-06 17:55:19,539 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file media/images/test_images_515_d0b98435e5c4a1049eae.png with policy now
+2024-03-06 17:55:19,544 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,545 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,545 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,546 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,552 DEBUG   SenderThread:12119 [sender.py:send():378] send: files
+2024-03-06 17:55:19,552 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file media/images/test_images_516_8bdd8b420791c09a0ecf.png with policy now
+2024-03-06 17:55:19,556 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,557 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,557 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,558 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,564 DEBUG   SenderThread:12119 [sender.py:send():378] send: files
+2024-03-06 17:55:19,564 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file media/images/test_images_517_c3cc8edf300c43053687.png with policy now
+2024-03-06 17:55:19,570 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,571 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,571 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,572 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,579 DEBUG   SenderThread:12119 [sender.py:send():378] send: files
+2024-03-06 17:55:19,579 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file media/images/test_images_518_7c93cffe6c436a57331c.png with policy now
+2024-03-06 17:55:19,583 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,584 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,585 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,585 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,589 DEBUG   SenderThread:12119 [sender.py:send():378] send: files
+2024-03-06 17:55:19,590 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file media/images/test_images_519_5c2aa073de5295ee4025.png with policy now
+2024-03-06 17:55:19,593 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,594 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,594 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,595 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,600 DEBUG   SenderThread:12119 [sender.py:send():378] send: files
+2024-03-06 17:55:19,600 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file media/images/test_images_520_14f9c8bad790841b32bb.png with policy now
+2024-03-06 17:55:19,603 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,605 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,605 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,605 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,612 DEBUG   SenderThread:12119 [sender.py:send():378] send: files
+2024-03-06 17:55:19,612 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file media/images/test_images_521_107942c669cf2bc3fbc2.png with policy now
+2024-03-06 17:55:19,616 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,617 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,617 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,617 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,622 DEBUG   SenderThread:12119 [sender.py:send():378] send: files
+2024-03-06 17:55:19,622 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file media/images/test_images_522_b21bbfe630d38988c1b2.png with policy now
+2024-03-06 17:55:19,628 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,629 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,629 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,629 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,634 DEBUG   SenderThread:12119 [sender.py:send():378] send: files
+2024-03-06 17:55:19,635 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file media/images/test_images_523_79a9f20b84cb951d2347.png with policy now
+2024-03-06 17:55:19,639 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,640 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 17:55:19,641 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,642 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,643 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,643 DEBUG   SenderThread:12119 [sender.py:send():378] send: history
+2024-03-06 17:55:19,643 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 17:55:19,643 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,644 DEBUG   SenderThread:12119 [sender.py:send():378] send: telemetry
+2024-03-06 17:55:19,644 DEBUG   SenderThread:12119 [sender.py:send():378] send: exit
+2024-03-06 17:55:19,644 INFO    SenderThread:12119 [sender.py:send_exit():585] handling exit code: 0
+2024-03-06 17:55:19,644 INFO    SenderThread:12119 [sender.py:send_exit():587] handling runtime: 238
+2024-03-06 17:55:19,644 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,644 INFO    SenderThread:12119 [sender.py:send_exit():593] send defer
+2024-03-06 17:55:19,644 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:19,644 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-06 17:55:19,645 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:19,645 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-06 17:55:19,645 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 1
+2024-03-06 17:55:19,645 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:19,645 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-06 17:55:19,646 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:19,646 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-06 17:55:19,646 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 2
+2024-03-06 17:55:19,646 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:19,646 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-06 17:55:19,646 INFO    HandlerThread:12119 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-06 17:55:19,647 DEBUG   SystemMonitor:12119 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-06 17:55:19,647 INFO    HandlerThread:12119 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-06 17:55:19,647 DEBUG   SystemMonitor:12119 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-06 17:55:19,648 INFO    HandlerThread:12119 [interfaces.py:finish():202] Joined disk monitor
+2024-03-06 17:55:19,648 INFO    HandlerThread:12119 [interfaces.py:finish():202] Joined memory monitor
+2024-03-06 17:55:19,648 INFO    HandlerThread:12119 [interfaces.py:finish():202] Joined network monitor
+2024-03-06 17:55:19,649 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:19,649 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-06 17:55:19,649 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 3
+2024-03-06 17:55:19,649 DEBUG   SenderThread:12119 [sender.py:send():378] send: stats
+2024-03-06 17:55:19,649 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:19,650 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-06 17:55:19,650 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:19,650 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-06 17:55:19,650 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 4
+2024-03-06 17:55:19,650 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:19,650 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-06 17:55:19,651 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:19,651 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-06 17:55:19,651 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 5
+2024-03-06 17:55:19,651 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:19,651 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-06 17:55:19,658 DEBUG   SenderThread:12119 [sender.py:send():378] send: summary
+2024-03-06 17:55:19,658 INFO    SenderThread:12119 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 17:55:19,658 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:19,659 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-06 17:55:19,659 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 6
+2024-03-06 17:55:19,659 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:19,659 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-06 17:55:19,659 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:19,659 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-06 17:55:19,664 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 17:55:19,671 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:19,671 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_523_79a9f20b84cb951d2347.png
+2024-03-06 17:55:19,671 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_518_7c93cffe6c436a57331c.png
+2024-03-06 17:55:19,671 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_520_14f9c8bad790841b32bb.png
+2024-03-06 17:55:19,672 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_517_c3cc8edf300c43053687.png
+2024-03-06 17:55:19,672 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_519_5c2aa073de5295ee4025.png
+2024-03-06 17:55:19,672 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_521_107942c669cf2bc3fbc2.png
+2024-03-06 17:55:19,673 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_516_8bdd8b420791c09a0ecf.png
+2024-03-06 17:55:19,673 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_522_b21bbfe630d38988c1b2.png
+2024-03-06 17:55:19,673 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_515_d0b98435e5c4a1049eae.png
+2024-03-06 17:55:19,673 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_514_7b1534ecab40649eeaba.png
+2024-03-06 17:55:19,673 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images
+2024-03-06 17:55:19,958 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 7
+2024-03-06 17:55:19,958 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:19,958 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-06 17:55:19,959 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:19,959 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-06 17:55:19,986 INFO    wandb-upload_4:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/tziesdrv-media/images/test_images_515_d0b98435e5c4a1049eae.png
+2024-03-06 17:55:19,997 INFO    wandb-upload_9:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/wtqo1fca-media/images/test_images_514_7b1534ecab40649eeaba.png
+2024-03-06 17:55:19,999 INFO    wandb-upload_5:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/vu1h88nc-media/images/test_images_518_7c93cffe6c436a57331c.png
+2024-03-06 17:55:20,003 INFO    wandb-upload_2:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/g1fval0r-media/images/test_images_519_5c2aa073de5295ee4025.png
+2024-03-06 17:55:20,036 INFO    wandb-upload_6:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/1smhcx4a-media/images/test_images_520_14f9c8bad790841b32bb.png
+2024-03-06 17:55:20,041 INFO    wandb-upload_8:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/jyhcxqhy-media/images/test_images_522_b21bbfe630d38988c1b2.png
+2024-03-06 17:55:20,049 INFO    wandb-upload_1:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/tedvcvu7-media/images/test_images_521_107942c669cf2bc3fbc2.png
+2024-03-06 17:55:20,050 INFO    wandb-upload_0:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/x9pa2ua1-media/images/test_images_517_c3cc8edf300c43053687.png
+2024-03-06 17:55:20,061 INFO    wandb-upload_3:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/5oufsytq-media/images/test_images_523_79a9f20b84cb951d2347.png
+2024-03-06 17:55:20,285 INFO    wandb-upload_7:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/xjfn0kha-media/images/test_images_516_8bdd8b420791c09a0ecf.png
+2024-03-06 17:55:20,586 INFO    wandb-upload_5:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/wzbbmwh8-media/images/test_images_522_b21bbfe630d38988c1b2.png
+2024-03-06 17:55:20,588 INFO    wandb-upload_4:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/csdfim3l-media/images/test_images_519_5c2aa073de5295ee4025.png
+2024-03-06 17:55:20,607 INFO    wandb-upload_6:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/fryku539-media/images/test_images_515_d0b98435e5c4a1049eae.png
+2024-03-06 17:55:20,642 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-06 17:55:20,672 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:20,673 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/config.yaml
+2024-03-06 17:55:20,794 INFO    wandb-upload_8:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/bn1csgzq-media/images/test_images_514_7b1534ecab40649eeaba.png
+2024-03-06 17:55:21,097 INFO    wandb-upload_4:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/xjdbq626-media/images/test_images_523_79a9f20b84cb951d2347.png
+2024-03-06 17:55:21,123 INFO    wandb-upload_2:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/x1rgh2o5-media/images/test_images_518_7c93cffe6c436a57331c.png
+2024-03-06 17:55:21,124 INFO    wandb-upload_9:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/g3pi6aku-media/images/test_images_520_14f9c8bad790841b32bb.png
+2024-03-06 17:55:21,301 INFO    wandb-upload_1:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/0ci3wuyr-media/images/test_images_517_c3cc8edf300c43053687.png
+2024-03-06 17:55:21,493 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 8
+2024-03-06 17:55:21,494 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: poll_exit
+2024-03-06 17:55:21,494 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:21,494 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-06 17:55:21,495 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:21,496 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-06 17:55:21,496 INFO    SenderThread:12119 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-06 17:55:21,496 INFO    SenderThread:12119 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-03-06 17:55:21,514 INFO    SenderThread:12119 [job_builder.py:build():404] adding wandb-job metadata file
+2024-03-06 17:55:21,533 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 9
+2024-03-06 17:55:21,533 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:21,533 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-06 17:55:21,534 DEBUG   SenderThread:12119 [sender.py:send():378] send: artifact
+2024-03-06 17:55:21,630 INFO    wandb-upload_0:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/bkwyl0cb-media/images/test_images_521_107942c669cf2bc3fbc2.png
+2024-03-06 17:55:21,631 INFO    wandb-upload_6:12119 [upload_job.py:push():131] Uploaded file /tmp/tmpp9akexr7wandb/mpno3na6-media/images/test_images_516_8bdd8b420791c09a0ecf.png
+2024-03-06 17:55:21,643 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-06 17:55:21,674 INFO    Thread-12 :12119 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:26,645 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-06 17:55:27,154 INFO    wandb-upload_8:12119 [upload_job.py:push():86] Skipped uploading /home/yifanzhou/.local/share/wandb/artifacts/staging/tmp7qqnip5y
+2024-03-06 17:55:27,559 INFO    wandb-upload_5:12119 [upload_job.py:push():89] Uploaded file /home/yifanzhou/.local/share/wandb/artifacts/staging/tmpmfd52q1e
+2024-03-06 17:55:28,782 INFO    SenderThread:12119 [sender.py:send_artifact():1443] sent artifact job-https___github.com_YifanZhou99_plr-exercise.git_scripts_train.py - {'id': 'QXJ0aWZhY3Q6NzQzOTY3MDUy', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NjA1NDIwMw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzQzOTQ5NDI0', 'versionIndex': 3}}}
+2024-03-06 17:55:28,783 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:28,783 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-06 17:55:28,783 INFO    SenderThread:12119 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-06 17:55:28,783 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 17:55:29,677 INFO    SenderThread:12119 [dir_watcher.py:finish():388] scan: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files
+2024-03-06 17:55:29,677 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/config.yaml config.yaml
+2024-03-06 17:55:29,678 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-metadata.json wandb-metadata.json
+2024-03-06 17:55:29,678 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/requirements.txt requirements.txt
+2024-03-06 17:55:29,678 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json wandb-summary.json
+2024-03-06 17:55:29,679 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log output.log
+2024-03-06 17:55:29,687 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_208_79a9f20b84cb951d2347.png media/images/test_images_208_79a9f20b84cb951d2347.png
+2024-03-06 17:55:29,687 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_414_5c2aa073de5295ee4025.png media/images/test_images_414_5c2aa073de5295ee4025.png
+2024-03-06 17:55:29,687 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_519_5c2aa073de5295ee4025.png media/images/test_images_519_5c2aa073de5295ee4025.png
+2024-03-06 17:55:29,687 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_410_d0b98435e5c4a1049eae.png media/images/test_images_410_d0b98435e5c4a1049eae.png
+2024-03-06 17:55:29,687 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_516_8bdd8b420791c09a0ecf.png media/images/test_images_516_8bdd8b420791c09a0ecf.png
+2024-03-06 17:55:29,687 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_307_c3cc8edf300c43053687.png media/images/test_images_307_c3cc8edf300c43053687.png
+2024-03-06 17:55:29,688 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_98_7c93cffe6c436a57331c.png media/images/test_images_98_7c93cffe6c436a57331c.png
+2024-03-06 17:55:29,688 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_97_c3cc8edf300c43053687.png media/images/test_images_97_c3cc8edf300c43053687.png
+2024-03-06 17:55:29,688 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_201_8bdd8b420791c09a0ecf.png media/images/test_images_201_8bdd8b420791c09a0ecf.png
+2024-03-06 17:55:29,688 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_416_107942c669cf2bc3fbc2.png media/images/test_images_416_107942c669cf2bc3fbc2.png
+2024-03-06 17:55:29,688 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_202_c3cc8edf300c43053687.png media/images/test_images_202_c3cc8edf300c43053687.png
+2024-03-06 17:55:29,688 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_515_d0b98435e5c4a1049eae.png media/images/test_images_515_d0b98435e5c4a1049eae.png
+2024-03-06 17:55:29,688 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_312_b21bbfe630d38988c1b2.png media/images/test_images_312_b21bbfe630d38988c1b2.png
+2024-03-06 17:55:29,688 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_101_107942c669cf2bc3fbc2.png media/images/test_images_101_107942c669cf2bc3fbc2.png
+2024-03-06 17:55:29,692 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_411_8bdd8b420791c09a0ecf.png media/images/test_images_411_8bdd8b420791c09a0ecf.png
+2024-03-06 17:55:29,692 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_413_7c93cffe6c436a57331c.png media/images/test_images_413_7c93cffe6c436a57331c.png
+2024-03-06 17:55:29,692 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_99_5c2aa073de5295ee4025.png media/images/test_images_99_5c2aa073de5295ee4025.png
+2024-03-06 17:55:29,692 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_521_107942c669cf2bc3fbc2.png media/images/test_images_521_107942c669cf2bc3fbc2.png
+2024-03-06 17:55:29,692 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_305_d0b98435e5c4a1049eae.png media/images/test_images_305_d0b98435e5c4a1049eae.png
+2024-03-06 17:55:29,692 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_95_d0b98435e5c4a1049eae.png media/images/test_images_95_d0b98435e5c4a1049eae.png
+2024-03-06 17:55:29,693 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_514_7b1534ecab40649eeaba.png media/images/test_images_514_7b1534ecab40649eeaba.png
+2024-03-06 17:55:29,693 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_103_79a9f20b84cb951d2347.png media/images/test_images_103_79a9f20b84cb951d2347.png
+2024-03-06 17:55:29,693 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_523_79a9f20b84cb951d2347.png media/images/test_images_523_79a9f20b84cb951d2347.png
+2024-03-06 17:55:29,693 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_517_c3cc8edf300c43053687.png media/images/test_images_517_c3cc8edf300c43053687.png
+2024-03-06 17:55:29,693 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_304_7b1534ecab40649eeaba.png media/images/test_images_304_7b1534ecab40649eeaba.png
+2024-03-06 17:55:29,693 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_204_5c2aa073de5295ee4025.png media/images/test_images_204_5c2aa073de5295ee4025.png
+2024-03-06 17:55:29,694 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_412_c3cc8edf300c43053687.png media/images/test_images_412_c3cc8edf300c43053687.png
+2024-03-06 17:55:29,694 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_200_d0b98435e5c4a1049eae.png media/images/test_images_200_d0b98435e5c4a1049eae.png
+2024-03-06 17:55:29,694 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_206_107942c669cf2bc3fbc2.png media/images/test_images_206_107942c669cf2bc3fbc2.png
+2024-03-06 17:55:29,694 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_199_7b1534ecab40649eeaba.png media/images/test_images_199_7b1534ecab40649eeaba.png
+2024-03-06 17:55:29,694 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_102_b21bbfe630d38988c1b2.png media/images/test_images_102_b21bbfe630d38988c1b2.png
+2024-03-06 17:55:29,694 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_100_14f9c8bad790841b32bb.png media/images/test_images_100_14f9c8bad790841b32bb.png
+2024-03-06 17:55:29,694 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_207_b21bbfe630d38988c1b2.png media/images/test_images_207_b21bbfe630d38988c1b2.png
+2024-03-06 17:55:29,694 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_203_7c93cffe6c436a57331c.png media/images/test_images_203_7c93cffe6c436a57331c.png
+2024-03-06 17:55:29,694 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_313_79a9f20b84cb951d2347.png media/images/test_images_313_79a9f20b84cb951d2347.png
+2024-03-06 17:55:29,694 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_418_79a9f20b84cb951d2347.png media/images/test_images_418_79a9f20b84cb951d2347.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_308_7c93cffe6c436a57331c.png media/images/test_images_308_7c93cffe6c436a57331c.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_94_7b1534ecab40649eeaba.png media/images/test_images_94_7b1534ecab40649eeaba.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_205_14f9c8bad790841b32bb.png media/images/test_images_205_14f9c8bad790841b32bb.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_311_107942c669cf2bc3fbc2.png media/images/test_images_311_107942c669cf2bc3fbc2.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_96_8bdd8b420791c09a0ecf.png media/images/test_images_96_8bdd8b420791c09a0ecf.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_310_14f9c8bad790841b32bb.png media/images/test_images_310_14f9c8bad790841b32bb.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_417_b21bbfe630d38988c1b2.png media/images/test_images_417_b21bbfe630d38988c1b2.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_518_7c93cffe6c436a57331c.png media/images/test_images_518_7c93cffe6c436a57331c.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_415_14f9c8bad790841b32bb.png media/images/test_images_415_14f9c8bad790841b32bb.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_309_5c2aa073de5295ee4025.png media/images/test_images_309_5c2aa073de5295ee4025.png
+2024-03-06 17:55:29,695 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_520_14f9c8bad790841b32bb.png media/images/test_images_520_14f9c8bad790841b32bb.png
+2024-03-06 17:55:29,696 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_306_8bdd8b420791c09a0ecf.png media/images/test_images_306_8bdd8b420791c09a0ecf.png
+2024-03-06 17:55:29,696 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_409_7b1534ecab40649eeaba.png media/images/test_images_409_7b1534ecab40649eeaba.png
+2024-03-06 17:55:29,696 INFO    SenderThread:12119 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/media/images/test_images_522_b21bbfe630d38988c1b2.png media/images/test_images_522_b21bbfe630d38988c1b2.png
+2024-03-06 17:55:29,696 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 10
+2024-03-06 17:55:29,696 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: poll_exit
+2024-03-06 17:55:29,696 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:29,696 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-06 17:55:29,697 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:29,697 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-06 17:55:29,697 INFO    SenderThread:12119 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-06 17:55:30,144 INFO    wandb-upload_2:12119 [upload_job.py:push():131] Uploaded file /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/requirements.txt
+2024-03-06 17:55:30,157 INFO    wandb-upload_3:12119 [upload_job.py:push():131] Uploaded file /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/config.yaml
+2024-03-06 17:55:30,239 INFO    wandb-upload_9:12119 [upload_job.py:push():131] Uploaded file /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/output.log
+2024-03-06 17:55:30,338 INFO    wandb-upload_7:12119 [upload_job.py:push():131] Uploaded file /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/files/wandb-summary.json
+2024-03-06 17:55:30,539 INFO    Thread-11 :12119 [sender.py:transition_state():613] send defer: 11
+2024-03-06 17:55:30,539 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:30,539 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-06 17:55:30,540 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:30,540 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-06 17:55:30,540 INFO    SenderThread:12119 [file_pusher.py:join():178] waiting for file pusher
+2024-03-06 17:55:30,550 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 12
+2024-03-06 17:55:30,550 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:30,550 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-06 17:55:30,550 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:30,551 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-06 17:55:30,551 INFO    SenderThread:12119 [file_stream.py:finish():595] file stream finish called
+2024-03-06 17:55:30,647 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-06 17:55:31,235 INFO    SenderThread:12119 [file_stream.py:finish():599] file stream finish is done
+2024-03-06 17:55:31,236 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 13
+2024-03-06 17:55:31,236 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: poll_exit
+2024-03-06 17:55:31,236 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:31,237 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-06 17:55:31,237 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:31,237 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-06 17:55:31,238 INFO    SenderThread:12119 [sender.py:transition_state():613] send defer: 14
+2024-03-06 17:55:31,238 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 17:55:31,238 INFO    HandlerThread:12119 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-06 17:55:31,238 DEBUG   SenderThread:12119 [sender.py:send():378] send: final
+2024-03-06 17:55:31,239 DEBUG   SenderThread:12119 [sender.py:send():378] send: footer
+2024-03-06 17:55:31,239 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: defer
+2024-03-06 17:55:31,239 INFO    SenderThread:12119 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-06 17:55:31,240 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-06 17:55:31,241 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: poll_exit
+2024-03-06 17:55:31,242 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-06 17:55:31,243 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: server_info
+2024-03-06 17:55:31,243 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: server_info
+2024-03-06 17:55:31,285 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-06 17:55:31,285 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-06 17:55:31,286 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: job_info
+2024-03-06 17:55:31,441 DEBUG   SenderThread:12119 [sender.py:send_request():405] send_request: job_info
+2024-03-06 17:55:31,442 DEBUG   HandlerThread:12119 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-06 17:55:31,442 INFO    HandlerThread:12119 [handler.py:finish():869] shutting down handler
+2024-03-06 17:55:32,287 INFO    WriterThread:12119 [datastore.py:close():296] close: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_175120-vtivp0x8/run-vtivp0x8.wandb
+2024-03-06 17:55:32,441 INFO    SenderThread:12119 [sender.py:finish():1521] shutting down sender
+2024-03-06 17:55:32,441 INFO    SenderThread:12119 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-06 17:55:32,441 INFO    SenderThread:12119 [file_pusher.py:join():178] waiting for file pusher
