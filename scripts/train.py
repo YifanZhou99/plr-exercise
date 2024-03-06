@@ -9,6 +9,7 @@ from torch.optim.lr_scheduler import StepLR
 from plr_exercise.models.cnn import Net
 
 import wandb
+import optuna
 
 
 
@@ -43,14 +44,14 @@ import wandb
 def train(args, model, device, train_loader, optimizer, epoch):
     model.train()
     # start a new wandb run to track this script
-    wandb.init(project="my-plr-ml-project",
+    """wandb.init(project="my-plr-ml-project",
                config={
                 "learning_rate": args.lr,
                 "architecture": "CNN",
                 "dataset": "MNIST",
                 "epochs": args.epochs,
                 }       
-    )
+    )"""
 
     for batch_idx, (data, target) in enumerate(train_loader):
 
@@ -90,6 +91,7 @@ def test(model, device, test_loader, epoch):
             correct += pred.eq(target.view_as(pred)).sum().item()
 
     test_loss /= len(test_loader.dataset)
+    accuracy = 100.0 * correct / len(test_loader.dataset)
 
     print(
         "\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n".format(
@@ -97,6 +99,9 @@ def test(model, device, test_loader, epoch):
         )
     )
     wandb.log({"testing_loss:": test_loss})
+
+    return accuracy
+
 
 
 def main():
@@ -131,7 +136,7 @@ def main():
         device = torch.device("cuda")
     else:
         device = torch.device("cpu")
-
+    DEVICE = device
     train_kwargs = {"batch_size": args.batch_size}
     test_kwargs = {"batch_size": args.test_batch_size}
     if use_cuda:
@@ -145,27 +150,56 @@ def main():
     train_loader = torch.utils.data.DataLoader(dataset1, **train_kwargs)
     test_loader = torch.utils.data.DataLoader(dataset2, **test_kwargs)
 
-    model = Net().to(device)
-    optimizer = optim.Adam(model.parameters(), lr=args.lr)
-
-    scheduler = StepLR(optimizer, step_size=1, gamma=args.gamma)
+    
+    
 
 
-   
+    def objective(trial):
+        model = Net().to(device)
+
+        lr = trial.suggest_float("lr", 1e-6, 1e-2)
+        gamma = trial.suggest_float("gamma", 0.1, 0.9)
+        epochs = trial.suggest_int("epochs", 1, 3)
+
+        print("Training with parameters: --lr:", lr, "--gamma:",gamma,'--epochs:',epochs)
+
+        wandb.init(project="plr_exercise",
+                   config={
+                       "learning_rate": lr,
+                        "epochs": epochs,
+                        "gamma": gamma
+                        },
+                    name=f'trial-{trial.number}',
+                    )
+
+        optimizer = optim.Adam(model.parameters(), lr=lr)
+        scheduler = StepLR(optimizer, step_size=1, gamma=gamma)
+
+        for epoch in range(epochs):
+            train(args, model, DEVICE, train_loader, optimizer, epoch)
+            accuracy = test(model, DEVICE, test_loader, epoch)
+            scheduler.step()
         
-   
+        trial.report(accuracy, epoch)
 
-    for epoch in range(args.epochs):
-        train(args, model, device, train_loader, optimizer, epoch)
-        test(model, device, test_loader, epoch)
-        scheduler.step()
-
+        if trial.should_prune():
+            raise optuna.exceptions.TrialPruned()
         
+        if args.save_model:
+            torch.save(model.state_dict(), "mnist_cnn.pt")
+       
 
-    if args.save_model:
-        torch.save(model.state_dict(), "mnist_cnn.pt")
+        return accuracy
 
-     # [optional] finish the wandb run, necessary in notebooks
+    study = optuna.create_study()
+    study.optimize(objective, n_trials=3)
+
+    print(study.best_params)
+        
+  
+
+    
+
     wandb.finish()
 
 

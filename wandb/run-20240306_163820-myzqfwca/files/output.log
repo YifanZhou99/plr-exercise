@@ -1,0 +1,26 @@
+[33m[W 2024-03-06 16:38:21,617][39m Trial 0 failed with parameters: {'lr': 0.008226977601396518, 'gamma': 0.7752707514766095, 'epochs': 1} because of the following error: NameError("name 'DEVICE' is not defined").
+Traceback (most recent call last):
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "./scripts/train.py", line 174, in objective
+    train(args, model, DEVICE, train_loader, optimizer, epoch)
+NameError: name 'DEVICE' is not defined
+[33m[W 2024-03-06 16:38:21,618][39m Trial 0 failed with value None.
+Traceback (most recent call last):
+  File "./scripts/train.py", line 200, in <module>
+    main()
+  File "./scripts/train.py", line 187, in main
+    study.optimize(objective, n_trials=3)
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/study.py", line 451, in optimize
+    _optimize(
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 66, in _optimize
+    _optimize_sequential(
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 163, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 251, in _run_trial
+    raise func_err
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "./scripts/train.py", line 174, in objective
+    train(args, model, DEVICE, train_loader, optimizer, epoch)
+NameError: name 'DEVICE' is not defined
