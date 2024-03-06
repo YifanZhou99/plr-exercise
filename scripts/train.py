@@ -8,6 +8,11 @@ from torchvision import datasets, transforms
 from torch.optim.lr_scheduler import StepLR
 from plr_exercise.models.cnn import Net
 
+import wandb
+
+
+
+
 """class Net(nn.Module):
     def __init__(self):
 
@@ -37,6 +42,16 @@ from plr_exercise.models.cnn import Net
 
 def train(args, model, device, train_loader, optimizer, epoch):
     model.train()
+    # start a new wandb run to track this script
+    wandb.init(project="my-plr-ml-project",
+               config={
+                "learning_rate": args.lr,
+                "architecture": "CNN",
+                "dataset": "MNIST",
+                "epochs": args.epochs,
+                }       
+    )
+
     for batch_idx, (data, target) in enumerate(train_loader):
 
         data, target = data.to(device), target.to(device)
@@ -55,6 +70,7 @@ def train(args, model, device, train_loader, optimizer, epoch):
                     loss.item(),
                 )
             )
+            wandb.log({"training_loss:": loss.item()})
             if args.dry_run:
                 break
 
@@ -80,6 +96,7 @@ def test(model, device, test_loader, epoch):
             test_loss, correct, len(test_loader.dataset), 100.0 * correct / len(test_loader.dataset)
         )
     )
+    wandb.log({"testing_loss:": test_loss})
 
 
 def main():
@@ -132,13 +149,24 @@ def main():
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
 
     scheduler = StepLR(optimizer, step_size=1, gamma=args.gamma)
+
+
+   
+        
+   
+
     for epoch in range(args.epochs):
         train(args, model, device, train_loader, optimizer, epoch)
         test(model, device, test_loader, epoch)
         scheduler.step()
 
+        
+
     if args.save_model:
         torch.save(model.state_dict(), "mnist_cnn.pt")
+
+     # [optional] finish the wandb run, necessary in notebooks
+    wandb.finish()
 
 
 if __name__ == "__main__":
