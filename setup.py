@@ -4,12 +4,15 @@ from distutils.core import setup
 INSTALL_REQUIRES = [
     "numpy",
     "torch>=1.21",
+    "torch",
+    "torchvision"
+
 ]
 setup(
     name="plr_exercise",
     version="1.0.0",
-    author="Jonas Frey",
-    author_email="jonfrey@ethz.ch",
+    author="Yifan Zhou",
+    author_email="yifzhou@ethz.ch",
     packages=find_packages(),
     python_requires=">=3.7",
     description="A small example package",
