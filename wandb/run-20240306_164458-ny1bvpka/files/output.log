@@ -1,0 +1,125 @@
+Train Epoch: 0 [0/60000 (0%)]	Loss: 2.305400
+Train Epoch: 0 [640/60000 (1%)]	Loss: 2.288856
+Train Epoch: 0 [1280/60000 (2%)]	Loss: 2.291730
+Train Epoch: 0 [1920/60000 (3%)]	Loss: 2.274375
+Train Epoch: 0 [2560/60000 (4%)]	Loss: 2.255953
+Train Epoch: 0 [3200/60000 (5%)]	Loss: 2.271111
+Train Epoch: 0 [3840/60000 (6%)]	Loss: 2.226611
+Train Epoch: 0 [4480/60000 (7%)]	Loss: 2.219175
+Train Epoch: 0 [5120/60000 (9%)]	Loss: 2.216633
+Train Epoch: 0 [5760/60000 (10%)]	Loss: 2.216801
+Train Epoch: 0 [6400/60000 (11%)]	Loss: 2.200733
+Train Epoch: 0 [7040/60000 (12%)]	Loss: 2.189582
+Train Epoch: 0 [7680/60000 (13%)]	Loss: 2.197046
+Train Epoch: 0 [8320/60000 (14%)]	Loss: 2.167754
+Train Epoch: 0 [8960/60000 (15%)]	Loss: 2.129717
+Train Epoch: 0 [9600/60000 (16%)]	Loss: 2.087312
+Train Epoch: 0 [10240/60000 (17%)]	Loss: 2.102017
+Train Epoch: 0 [10880/60000 (18%)]	Loss: 2.125511
+Train Epoch: 0 [11520/60000 (19%)]	Loss: 2.074352
+Train Epoch: 0 [12160/60000 (20%)]	Loss: 2.059176
+Train Epoch: 0 [12800/60000 (21%)]	Loss: 2.153563
+Train Epoch: 0 [13440/60000 (22%)]	Loss: 1.996868
+Train Epoch: 0 [14080/60000 (23%)]	Loss: 2.022119
+Train Epoch: 0 [14720/60000 (25%)]	Loss: 2.031717
+Train Epoch: 0 [15360/60000 (26%)]	Loss: 2.045964
+Train Epoch: 0 [16000/60000 (27%)]	Loss: 2.039806
+Train Epoch: 0 [16640/60000 (28%)]	Loss: 1.970032
+Train Epoch: 0 [17280/60000 (29%)]	Loss: 1.899859
+Train Epoch: 0 [17920/60000 (30%)]	Loss: 1.913491
+Train Epoch: 0 [18560/60000 (31%)]	Loss: 1.874831
+Train Epoch: 0 [19200/60000 (32%)]	Loss: 1.763890
+Train Epoch: 0 [19840/60000 (33%)]	Loss: 1.840925
+Train Epoch: 0 [20480/60000 (34%)]	Loss: 1.841834
+Train Epoch: 0 [21120/60000 (35%)]	Loss: 1.786828
+Train Epoch: 0 [21760/60000 (36%)]	Loss: 1.626970
+Train Epoch: 0 [22400/60000 (37%)]	Loss: 1.665084
+Train Epoch: 0 [23040/60000 (38%)]	Loss: 1.795758
+Train Epoch: 0 [23680/60000 (39%)]	Loss: 1.782046
+Train Epoch: 0 [24320/60000 (41%)]	Loss: 1.652112
+Train Epoch: 0 [24960/60000 (42%)]	Loss: 1.733040
+Train Epoch: 0 [25600/60000 (43%)]	Loss: 1.644646
+Train Epoch: 0 [26240/60000 (44%)]	Loss: 1.601275
+Train Epoch: 0 [26880/60000 (45%)]	Loss: 1.664663
+Train Epoch: 0 [27520/60000 (46%)]	Loss: 1.573482
+Train Epoch: 0 [28160/60000 (47%)]	Loss: 1.519237
+Train Epoch: 0 [28800/60000 (48%)]	Loss: 1.542376
+Train Epoch: 0 [29440/60000 (49%)]	Loss: 1.505995
+Train Epoch: 0 [30080/60000 (50%)]	Loss: 1.664607
+Train Epoch: 0 [30720/60000 (51%)]	Loss: 1.640436
+Train Epoch: 0 [31360/60000 (52%)]	Loss: 1.611953
+Train Epoch: 0 [32000/60000 (53%)]	Loss: 1.546475
+Train Epoch: 0 [32640/60000 (54%)]	Loss: 1.493026
+Train Epoch: 0 [33280/60000 (55%)]	Loss: 1.421569
+Train Epoch: 0 [33920/60000 (57%)]	Loss: 1.322156
+Train Epoch: 0 [34560/60000 (58%)]	Loss: 1.449895
+Train Epoch: 0 [35200/60000 (59%)]	Loss: 1.467680
+Train Epoch: 0 [35840/60000 (60%)]	Loss: 1.450961
+Train Epoch: 0 [36480/60000 (61%)]	Loss: 1.420165
+Train Epoch: 0 [37120/60000 (62%)]	Loss: 1.408261
+Train Epoch: 0 [37760/60000 (63%)]	Loss: 1.414271
+Train Epoch: 0 [38400/60000 (64%)]	Loss: 1.267268
+Train Epoch: 0 [39040/60000 (65%)]	Loss: 1.109379
+Train Epoch: 0 [39680/60000 (66%)]	Loss: 1.324094
+Train Epoch: 0 [40320/60000 (67%)]	Loss: 1.202108
+Train Epoch: 0 [40960/60000 (68%)]	Loss: 1.268736
+Train Epoch: 0 [41600/60000 (69%)]	Loss: 1.273176
+Train Epoch: 0 [42240/60000 (70%)]	Loss: 1.308169
+Train Epoch: 0 [42880/60000 (71%)]	Loss: 1.285366
+Train Epoch: 0 [43520/60000 (72%)]	Loss: 1.282642
+Train Epoch: 0 [44160/60000 (74%)]	Loss: 1.216559
+Train Epoch: 0 [44800/60000 (75%)]	Loss: 1.241474
+Train Epoch: 0 [45440/60000 (76%)]	Loss: 1.456108
+Train Epoch: 0 [46080/60000 (77%)]	Loss: 1.205720
+Train Epoch: 0 [46720/60000 (78%)]	Loss: 1.105075
+Train Epoch: 0 [47360/60000 (79%)]	Loss: 1.226560
+Train Epoch: 0 [48000/60000 (80%)]	Loss: 1.090278
+Train Epoch: 0 [48640/60000 (81%)]	Loss: 1.044105
+Train Epoch: 0 [49280/60000 (82%)]	Loss: 0.991727
+Train Epoch: 0 [49920/60000 (83%)]	Loss: 1.123517
+Train Epoch: 0 [50560/60000 (84%)]	Loss: 1.148098
+Train Epoch: 0 [51200/60000 (85%)]	Loss: 1.108608
+Train Epoch: 0 [51840/60000 (86%)]	Loss: 1.046137
+Train Epoch: 0 [52480/60000 (87%)]	Loss: 0.822802
+Train Epoch: 0 [53120/60000 (88%)]	Loss: 1.163023
+Train Epoch: 0 [53760/60000 (90%)]	Loss: 0.945730
+Train Epoch: 0 [54400/60000 (91%)]	Loss: 0.946807
+Train Epoch: 0 [55040/60000 (92%)]	Loss: 0.936657
+Train Epoch: 0 [55680/60000 (93%)]	Loss: 0.959441
+Train Epoch: 0 [56320/60000 (94%)]	Loss: 1.113820
+Train Epoch: 0 [56960/60000 (95%)]	Loss: 0.962265
+Train Epoch: 0 [57600/60000 (96%)]	Loss: 1.027378
+Train Epoch: 0 [58240/60000 (97%)]	Loss: 0.766752
+Train Epoch: 0 [58880/60000 (98%)]	Loss: 0.551893
+Train Epoch: 0 [59520/60000 (99%)]	Loss: 0.708095
+Test set: Average loss: 0.8106, Accuracy: 8456/10000 (85%)
+[33m[W 2024-03-06 16:45:32,018][39m Trial 0 failed with parameters: {'lr': 4.077753161287214e-06, 'gamma': 0.2034612806209382, 'epochs': 1} because of the following error: TypeError("The `value` argument is of type 'NoneType' but supposed to be a float.").
+Traceback (most recent call last):
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "./scripts/train.py", line 180, in objective
+    trial.report(accuracy, epoch)
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/trial/_trial.py", line 492, in report
+    raise TypeError(message) from None
+TypeError: The `value` argument is of type 'NoneType' but supposed to be a float.
+[33m[W 2024-03-06 16:45:32,018][39m Trial 0 failed with value None.
+Traceback (most recent call last):
+  File "./scripts/train.py", line 204, in <module>
+    main()
+  File "./scripts/train.py", line 192, in main
+    study.optimize(objective, n_trials=3)
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/study.py", line 451, in optimize
+    _optimize(
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 66, in _optimize
+    _optimize_sequential(
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 163, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 251, in _run_trial
+    raise func_err
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "./scripts/train.py", line 180, in objective
+    trial.report(accuracy, epoch)
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/trial/_trial.py", line 492, in report
+    raise TypeError(message) from None
+TypeError: The `value` argument is of type 'NoneType' but supposed to be a float.

@@ -1,0 +1,538 @@
+2024-03-06 16:39:14,430 INFO    StreamThr :9374 [internal.py:wandb_internal():86] W&B internal server running at pid: 9374, started at: 2024-03-06 16:39:14.429953
+2024-03-06 16:39:14,431 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: status
+2024-03-06 16:39:14,432 INFO    WriterThread:9374 [datastore.py:open_for_write():87] open: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/run-gucficjj.wandb
+2024-03-06 16:39:14,433 DEBUG   SenderThread:9374 [sender.py:send():378] send: header
+2024-03-06 16:39:14,439 DEBUG   SenderThread:9374 [sender.py:send():378] send: run
+2024-03-06 16:39:14,834 INFO    SenderThread:9374 [dir_watcher.py:__init__():211] watching files in: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files
+2024-03-06 16:39:14,835 INFO    SenderThread:9374 [sender.py:_start_run_threads():1099] run started: gucficjj with start time 1709739554.429863
+2024-03-06 16:39:14,842 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: check_version
+2024-03-06 16:39:14,842 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: check_version
+2024-03-06 16:39:14,931 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: run_start
+2024-03-06 16:39:14,931 DEBUG   HandlerThread:9374 [system_info.py:__init__():26] System info init
+2024-03-06 16:39:14,931 DEBUG   HandlerThread:9374 [system_info.py:__init__():41] System info init done
+2024-03-06 16:39:14,931 INFO    HandlerThread:9374 [system_monitor.py:start():194] Starting system monitor
+2024-03-06 16:39:14,932 INFO    SystemMonitor:9374 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-06 16:39:14,932 INFO    SystemMonitor:9374 [interfaces.py:start():190] Started cpu monitoring
+2024-03-06 16:39:14,932 INFO    HandlerThread:9374 [system_monitor.py:probe():214] Collecting system info
+2024-03-06 16:39:14,934 INFO    SystemMonitor:9374 [interfaces.py:start():190] Started disk monitoring
+2024-03-06 16:39:14,935 INFO    SystemMonitor:9374 [interfaces.py:start():190] Started memory monitoring
+2024-03-06 16:39:14,935 INFO    SystemMonitor:9374 [interfaces.py:start():190] Started network monitoring
+2024-03-06 16:39:14,966 DEBUG   HandlerThread:9374 [system_info.py:probe():150] Probing system
+2024-03-06 16:39:14,970 DEBUG   HandlerThread:9374 [system_info.py:_probe_git():135] Probing git
+2024-03-06 16:39:14,977 DEBUG   HandlerThread:9374 [system_info.py:_probe_git():143] Probing git done
+2024-03-06 16:39:14,978 DEBUG   HandlerThread:9374 [system_info.py:probe():198] Probing system done
+2024-03-06 16:39:14,978 DEBUG   HandlerThread:9374 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-97-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2024-03-06T15:39:14.966339', 'startedAt': '2024-03-06T15:39:14.426062', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': './scripts/train.py', 'codePathLocal': 'scripts/train.py', 'codePath': 'scripts/train.py', 'git': {'remote': 'https://github.com/YifanZhou99/plr-exercise.git', 'commit': '0ebfa2bc2ff5560bc99519d68a51f41ea792a9a5'}, 'email': '75839011+YifanZhou99@users.noreply.github.com', 'root': '/home/yifanzhou/Documents/GitHub/plr-exercise', 'host': 'yifanzhou-ThinkPad-X1-Carbon-Gen-10', 'username': 'yifanzhou', 'executable': '/home/yifanzhou/venv/plr/bin/python3', 'cpu_count': 12, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2383.5569375, 'min': 400.0, 'max': 4050.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 400.0, 'max': 4700.0}, {'current': 2500.0, 'min': 400.0, 'max': 4700.0}, {'current': 2500.0, 'min': 400.0, 'max': 4700.0}, {'current': 2500.0, 'min': 400.0, 'max': 4700.0}, {'current': 2500.0, 'min': 400.0, 'max': 4700.0}, {'current': 2500.0, 'min': 400.0, 'max': 4700.0}, {'current': 636.911, 'min': 400.0, 'max': 4700.0}, {'current': 2500.0, 'min': 400.0, 'max': 4700.0}, {'current': 2500.0, 'min': 400.0, 'max': 3400.0}, {'current': 2500.0, 'min': 400.0, 'max': 3400.0}, {'current': 2500.0, 'min': 400.0, 'max': 3400.0}, {'current': 2500.0, 'min': 400.0, 'max': 3400.0}, {'current': 2500.0, 'min': 400.0, 'max': 3400.0}, {'current': 2500.0, 'min': 400.0, 'max': 3400.0}, {'current': 2500.0, 'min': 400.0, 'max': 3400.0}, {'current': 2500.0, 'min': 400.0, 'max': 3400.0}], 'disk': {'/': {'total': 97.87200164794922, 'used': 46.22288131713867}}, 'memory': {'total': 31.04525375366211}}
+2024-03-06 16:39:14,978 INFO    HandlerThread:9374 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-06 16:39:14,978 INFO    HandlerThread:9374 [system_monitor.py:probe():227] Publishing system info
+2024-03-06 16:39:14,978 INFO    HandlerThread:9374 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-06 16:39:14,979 DEBUG   SenderThread:9374 [sender.py:send():378] send: files
+2024-03-06 16:39:14,979 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-metadata.json with policy now
+2024-03-06 16:39:15,012 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-06 16:39:15,013 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: python_packages
+2024-03-06 16:39:15,014 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-06 16:39:15,014 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: stop_status
+2024-03-06 16:39:15,014 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-06 16:39:15,095 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:15,194 DEBUG   SenderThread:9374 [sender.py:send():378] send: telemetry
+2024-03-06 16:39:15,195 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:15,195 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:15,195 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:15,398 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:15,399 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:15,399 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:15,399 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:15,646 INFO    wandb-upload_0:9374 [upload_job.py:push():131] Uploaded file /tmp/tmptjc8e5n6wandb/yapeueop-wandb-metadata.json
+2024-03-06 16:39:15,753 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:15,753 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:15,754 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:15,754 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:15,836 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:15,836 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-metadata.json
+2024-03-06 16:39:15,836 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:15,836 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_created():271] file/dir created: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/requirements.txt
+2024-03-06 16:39:16,101 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:16,101 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:16,102 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:16,102 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:16,448 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:16,458 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:16,458 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:16,458 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:16,798 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:16,798 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:16,798 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:16,799 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:16,835 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:17,155 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:17,155 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:17,156 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:17,157 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:17,505 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:17,505 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:17,505 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:17,505 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:17,835 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:17,836 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:17,852 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:17,853 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:17,853 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:17,853 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:18,199 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:18,200 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:18,200 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:18,200 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:18,555 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:18,555 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:18,555 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:18,556 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:18,836 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:18,909 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:18,909 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:18,910 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:18,910 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:19,260 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:19,261 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:19,261 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:19,261 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:19,615 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:19,616 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 16:39:19,616 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:19,616 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:19,616 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:19,836 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:19,836 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:19,964 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:19,965 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:19,965 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:19,965 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:20,318 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:20,319 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:20,319 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:20,319 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:20,667 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:20,668 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:20,668 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:20,668 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:20,836 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:21,055 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:21,055 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:21,055 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:21,056 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:21,443 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:21,443 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:21,443 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:21,444 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:21,821 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:21,822 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:21,822 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:21,822 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:21,836 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:21,837 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:22,177 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:22,178 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:22,178 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:22,178 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:22,516 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:22,517 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:22,517 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:22,517 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:22,787 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:22,787 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:22,788 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:22,788 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:22,837 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:23,083 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:23,084 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:23,084 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:23,084 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:23,384 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:23,385 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:23,385 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:23,385 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:23,684 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:23,685 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:23,685 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:23,685 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:23,837 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:23,837 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:23,977 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:23,978 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:23,978 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:23,978 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:24,274 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:24,275 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:24,275 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:24,275 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:24,578 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:24,578 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:24,579 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:24,579 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:24,838 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:24,872 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:24,873 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 16:39:24,873 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:24,873 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:24,873 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:25,174 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:25,175 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:25,175 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:25,175 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:25,495 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:25,495 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:25,496 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:25,496 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:25,799 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:25,800 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:25,800 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:25,800 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:25,838 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:25,838 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:26,101 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:26,101 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:26,102 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:26,102 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:26,390 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:26,391 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:26,391 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:26,392 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:26,702 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:26,703 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:26,703 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:26,703 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:26,838 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:27,004 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:27,005 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:27,005 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:27,005 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:27,302 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:27,303 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:27,303 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:27,304 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:27,592 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:27,593 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:27,593 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:27,594 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:27,838 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:27,839 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:27,884 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:27,885 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:27,885 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:27,885 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:28,176 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:28,176 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:28,176 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:28,177 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:28,469 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:28,470 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:28,470 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:28,470 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:28,759 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:28,760 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:28,760 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:28,760 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:28,839 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:29,065 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:29,066 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:29,066 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:29,066 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:29,414 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:29,415 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:29,415 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:29,415 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:29,815 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:29,816 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:29,816 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:29,825 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:29,839 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:29,839 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:30,013 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-06 16:39:30,013 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: stop_status
+2024-03-06 16:39:30,014 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-06 16:39:30,155 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:30,222 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:30,223 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 16:39:30,223 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:30,224 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:30,473 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:30,474 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:30,474 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:30,474 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:30,828 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:30,828 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:30,828 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:30,828 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:30,839 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:31,226 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:31,226 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:31,227 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:31,227 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:31,578 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:31,579 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:31,579 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:31,579 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:31,840 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:31,840 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:31,883 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:31,884 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:31,884 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:31,884 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:32,184 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:32,185 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:32,185 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:32,185 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:32,487 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:32,488 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:32,488 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:32,488 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:32,783 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:32,784 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:32,784 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:32,785 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:32,840 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:33,086 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:33,087 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:33,087 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:33,087 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:33,384 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:33,385 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:33,385 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:33,386 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:33,683 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:33,684 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:33,684 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:33,684 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:33,841 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:33,841 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:33,987 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:33,987 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:33,987 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:33,988 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:34,379 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:34,379 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:34,380 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:34,380 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:34,734 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:34,735 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:34,735 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:34,736 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:34,841 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:35,033 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:35,033 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:35,034 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:35,034 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:35,329 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:35,330 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 16:39:35,330 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:35,330 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:35,331 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:35,636 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:35,637 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:35,637 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:35,637 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:35,841 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:35,841 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:35,957 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:35,958 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:35,958 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:35,959 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:36,258 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:36,259 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:36,259 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:36,259 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:36,569 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:36,570 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:36,570 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:36,570 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:36,842 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:36,880 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:36,881 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:36,881 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:36,881 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:37,174 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:37,175 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:37,175 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:37,175 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:37,468 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:37,469 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:37,469 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:37,469 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:37,776 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:37,777 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:37,777 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:37,777 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:37,842 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:37,842 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:38,082 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:38,083 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:38,083 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:38,083 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:38,378 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:38,379 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:38,379 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:38,379 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:38,682 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:38,683 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:38,683 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:38,692 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:38,842 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:39,002 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:39,003 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:39,003 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:39,003 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:39,324 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:39,325 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:39,325 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:39,325 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:39,639 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-06 16:39:39,639 DEBUG   SenderThread:9374 [sender.py:send():378] send: history
+2024-03-06 16:39:39,639 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: summary_record
+2024-03-06 16:39:39,639 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:39,843 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:39,843 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:39,912 DEBUG   SenderThread:9374 [sender.py:send():378] send: exit
+2024-03-06 16:39:39,912 INFO    SenderThread:9374 [sender.py:send_exit():585] handling exit code: 255
+2024-03-06 16:39:39,912 INFO    SenderThread:9374 [sender.py:send_exit():587] handling runtime: 24
+2024-03-06 16:39:39,913 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:39,913 INFO    SenderThread:9374 [sender.py:send_exit():593] send defer
+2024-03-06 16:39:39,913 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:39,913 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-06 16:39:39,913 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:39,913 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-03-06 16:39:39,913 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 1
+2024-03-06 16:39:39,913 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:39,913 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-06 16:39:39,913 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:39,914 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-03-06 16:39:39,914 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 2
+2024-03-06 16:39:39,914 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:39,914 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-06 16:39:39,914 INFO    HandlerThread:9374 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-06 16:39:39,914 DEBUG   SystemMonitor:9374 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-06 16:39:39,914 INFO    HandlerThread:9374 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-06 16:39:39,914 DEBUG   SystemMonitor:9374 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-06 16:39:39,914 INFO    HandlerThread:9374 [interfaces.py:finish():202] Joined disk monitor
+2024-03-06 16:39:39,914 DEBUG   SystemMonitor:9374 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-06 16:39:39,914 INFO    HandlerThread:9374 [interfaces.py:finish():202] Joined memory monitor
+2024-03-06 16:39:39,915 INFO    HandlerThread:9374 [interfaces.py:finish():202] Joined network monitor
+2024-03-06 16:39:39,915 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:39,915 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-03-06 16:39:39,915 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 3
+2024-03-06 16:39:39,915 DEBUG   SenderThread:9374 [sender.py:send():378] send: stats
+2024-03-06 16:39:39,916 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:39,916 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-06 16:39:39,916 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:39,916 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-03-06 16:39:39,916 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 4
+2024-03-06 16:39:39,916 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:39,916 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-06 16:39:39,916 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:39,916 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-03-06 16:39:39,916 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 5
+2024-03-06 16:39:39,916 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:39,916 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-06 16:39:39,916 DEBUG   SenderThread:9374 [sender.py:send():378] send: summary
+2024-03-06 16:39:39,922 INFO    SenderThread:9374 [sender.py:_save_file():1365] saving file wandb-summary.json with policy end
+2024-03-06 16:39:39,922 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:39,922 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-03-06 16:39:39,922 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 6
+2024-03-06 16:39:39,922 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:39,922 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-06 16:39:39,922 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:39,922 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-03-06 16:39:39,925 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: status_report
+2024-03-06 16:39:40,124 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 7
+2024-03-06 16:39:40,125 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:40,125 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-06 16:39:40,125 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:40,125 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-03-06 16:39:40,844 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/config.yaml
+2024-03-06 16:39:40,845 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:40,913 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-06 16:39:41,844 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:41,913 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 8
+2024-03-06 16:39:41,913 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: poll_exit
+2024-03-06 16:39:41,913 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:41,913 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-06 16:39:41,914 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:41,914 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-03-06 16:39:41,914 INFO    SenderThread:9374 [job_builder.py:build():298] Attempting to build job artifact
+2024-03-06 16:39:41,914 INFO    SenderThread:9374 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-03-06 16:39:41,915 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-06 16:39:41,925 INFO    SenderThread:9374 [job_builder.py:build():404] adding wandb-job metadata file
+2024-03-06 16:39:41,943 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 9
+2024-03-06 16:39:41,943 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: poll_exit
+2024-03-06 16:39:41,944 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:41,944 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-06 16:39:41,950 DEBUG   SenderThread:9374 [sender.py:send():378] send: artifact
+2024-03-06 16:39:42,845 INFO    Thread-12 :9374 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:42,916 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-06 16:39:43,197 INFO    wandb-upload_1:9374 [upload_job.py:push():86] Skipped uploading /home/yifanzhou/.local/share/wandb/artifacts/staging/tmpzgw7cahc
+2024-03-06 16:39:43,501 INFO    wandb-upload_0:9374 [upload_job.py:push():89] Uploaded file /home/yifanzhou/.local/share/wandb/artifacts/staging/tmpyvft3blk
+2024-03-06 16:39:45,342 INFO    SenderThread:9374 [sender.py:send_artifact():1443] sent artifact job-https___github.com_YifanZhou99_plr-exercise.git_scripts_train.py - {'id': 'QXJ0aWZhY3Q6NzQzODc3MzUw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0NjA1NDIwMw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzQzODc1NzMx', 'versionIndex': 0}}}
+2024-03-06 16:39:45,342 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:45,342 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-03-06 16:39:45,342 INFO    SenderThread:9374 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-06 16:39:45,847 INFO    SenderThread:9374 [dir_watcher.py:finish():388] scan: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files
+2024-03-06 16:39:45,848 INFO    SenderThread:9374 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/config.yaml config.yaml
+2024-03-06 16:39:45,848 INFO    SenderThread:9374 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-metadata.json wandb-metadata.json
+2024-03-06 16:39:45,848 INFO    SenderThread:9374 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/requirements.txt requirements.txt
+2024-03-06 16:39:45,848 INFO    SenderThread:9374 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json wandb-summary.json
+2024-03-06 16:39:45,848 INFO    SenderThread:9374 [dir_watcher.py:finish():402] scan save: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log output.log
+2024-03-06 16:39:45,848 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 10
+2024-03-06 16:39:45,849 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: poll_exit
+2024-03-06 16:39:45,849 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:45,849 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-06 16:39:45,860 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:45,860 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-03-06 16:39:45,860 INFO    SenderThread:9374 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-06 16:39:45,919 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-06 16:39:45,920 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: poll_exit
+2024-03-06 16:39:46,210 INFO    wandb-upload_0:9374 [upload_job.py:push():131] Uploaded file /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/requirements.txt
+2024-03-06 16:39:46,256 INFO    wandb-upload_1:9374 [upload_job.py:push():131] Uploaded file /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/config.yaml
+2024-03-06 16:39:46,266 INFO    wandb-upload_3:9374 [upload_job.py:push():131] Uploaded file /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/output.log
+2024-03-06 16:39:46,312 INFO    wandb-upload_2:9374 [upload_job.py:push():131] Uploaded file /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/files/wandb-summary.json
+2024-03-06 16:39:46,513 INFO    Thread-11 :9374 [sender.py:transition_state():613] send defer: 11
+2024-03-06 16:39:46,514 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:46,514 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-06 16:39:46,515 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:46,515 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-03-06 16:39:46,515 INFO    SenderThread:9374 [file_pusher.py:join():178] waiting for file pusher
+2024-03-06 16:39:46,516 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 12
+2024-03-06 16:39:46,516 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:46,516 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-06 16:39:46,517 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:46,517 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-03-06 16:39:46,517 INFO    SenderThread:9374 [file_stream.py:finish():595] file stream finish called
+2024-03-06 16:39:46,673 INFO    SenderThread:9374 [file_stream.py:finish():599] file stream finish is done
+2024-03-06 16:39:46,673 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 13
+2024-03-06 16:39:46,673 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:46,673 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-06 16:39:46,674 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:46,674 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-03-06 16:39:46,674 INFO    SenderThread:9374 [sender.py:transition_state():613] send defer: 14
+2024-03-06 16:39:46,675 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: defer
+2024-03-06 16:39:46,675 INFO    HandlerThread:9374 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-06 16:39:46,676 DEBUG   SenderThread:9374 [sender.py:send():378] send: final
+2024-03-06 16:39:46,676 DEBUG   SenderThread:9374 [sender.py:send():378] send: footer
+2024-03-06 16:39:46,676 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: defer
+2024-03-06 16:39:46,676 INFO    SenderThread:9374 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-03-06 16:39:46,677 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-06 16:39:46,678 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: poll_exit
+2024-03-06 16:39:46,679 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-06 16:39:46,679 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: server_info
+2024-03-06 16:39:46,679 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-06 16:39:46,680 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: poll_exit
+2024-03-06 16:39:46,680 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: server_info
+2024-03-06 16:39:46,682 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-06 16:39:46,683 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-06 16:39:46,683 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: job_info
+2024-03-06 16:39:46,877 DEBUG   SenderThread:9374 [sender.py:send_request():405] send_request: job_info
+2024-03-06 16:39:46,878 INFO    MainThread:9374 [wandb_run.py:_footer_history_summary_info():3851] rendering history
+2024-03-06 16:39:46,878 INFO    MainThread:9374 [wandb_run.py:_footer_history_summary_info():3883] rendering summary
+2024-03-06 16:39:46,879 INFO    MainThread:9374 [wandb_run.py:_footer_sync_info():3810] logging synced files
+2024-03-06 16:39:46,879 DEBUG   HandlerThread:9374 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-06 16:39:46,880 INFO    HandlerThread:9374 [handler.py:finish():869] shutting down handler
+2024-03-06 16:39:47,684 INFO    WriterThread:9374 [datastore.py:close():296] close: /home/yifanzhou/Documents/GitHub/plr-exercise/wandb/run-20240306_163914-gucficjj/run-gucficjj.wandb
+2024-03-06 16:39:47,878 INFO    SenderThread:9374 [sender.py:finish():1521] shutting down sender
+2024-03-06 16:39:47,878 INFO    SenderThread:9374 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-06 16:39:47,878 INFO    SenderThread:9374 [file_pusher.py:join():178] waiting for file pusher

@@ -6,7 +6,8 @@ INSTALL_REQUIRES = [
     "torch>=1.21",
     "torch",
     "torchvision",
-    "wandb"
+    "wandb",
+    "optuna"
 
 ]
 setup(
