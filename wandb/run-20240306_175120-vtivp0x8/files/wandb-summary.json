@@ -1,0 +1,1 @@
+{"training_loss:": 0.09620600938796997, "_timestamp": 1709744094.6882415, "_runtime": 213.70218658447266, "_step": 471, "test_images": {"_type": "images/separated", "width": 28, "height": 28, "format": "png", "count": 1, "filenames": ["media/images/test_images_418_79a9f20b84cb951d2347.png"], "captions": ["Pred: 2, Actual: 7"]}, "testing_loss:": 0.041732802391052246}

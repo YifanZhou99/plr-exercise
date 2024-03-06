@@ -1,0 +1,52 @@
+
+Time Training CPU time for epoch 0:  1.047688001563074 ms
+[33m[W 2024-03-06 17:45:26,246][39m Trial 0 failed with parameters: {'lr': 0.006082141425218532, 'gamma': 0.38386994985693057, 'epochs': 3} because of the following error: RuntimeError('Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx').
+Traceback (most recent call last):
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "./scripts/train.py", line 238, in objective
+    train(args, model, DEVICE, train_loader, optimizer, epoch)
+  File "./scripts/train.py", line 71, in train
+    with Timer(f"Training GPU time for epoch {epoch}"):
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/pytictac/simple_timer.py", line 36, in __enter__
+    self.tic()
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/pytictac/simple_timer.py", line 43, in tic
+    self.start.record()
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/torch/cuda/streams.py", line 183, in record
+    stream = torch.cuda.current_stream()
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/torch/cuda/__init__.py", line 826, in current_stream
+    _lazy_init()
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/torch/cuda/__init__.py", line 302, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
+[33m[W 2024-03-06 17:45:26,246][39m Trial 0 failed with value None.
+Traceback (most recent call last):
+  File "./scripts/train.py", line 266, in <module>
+    main()
+  File "./scripts/train.py", line 254, in main
+    study.optimize(objective, n_trials=3)
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/study.py", line 451, in optimize
+    _optimize(
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 66, in _optimize
+    _optimize_sequential(
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 163, in _optimize_sequential
+    frozen_trial = _run_trial(study, func, catch)
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 251, in _run_trial
+    raise func_err
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/optuna/study/_optimize.py", line 200, in _run_trial
+    value_or_values = func(trial)
+  File "./scripts/train.py", line 238, in objective
+    train(args, model, DEVICE, train_loader, optimizer, epoch)
+  File "./scripts/train.py", line 71, in train
+    with Timer(f"Training GPU time for epoch {epoch}"):
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/pytictac/simple_timer.py", line 36, in __enter__
+    self.tic()
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/pytictac/simple_timer.py", line 43, in tic
+    self.start.record()
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/torch/cuda/streams.py", line 183, in record
+    stream = torch.cuda.current_stream()
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/torch/cuda/__init__.py", line 826, in current_stream
+    _lazy_init()
+  File "/home/yifanzhou/venv/plr/lib/python3.8/site-packages/torch/cuda/__init__.py", line 302, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx

@@ -7,7 +7,9 @@ INSTALL_REQUIRES = [
     "torch",
     "torchvision",
     "wandb",
-    "optuna"
+    "optuna",
+    "timing",
+    "pytictac"
 
 ]
 setup(

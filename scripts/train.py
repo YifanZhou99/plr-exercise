@@ -10,6 +10,7 @@ from plr_exercise.models.cnn import Net
 
 import wandb
 import optuna
+from timing import Timer, CpuTimer  # Import the Timer and CpuTimer
 
 
 
@@ -55,7 +56,7 @@ def train(args, model, device, train_loader, optimizer, epoch):
 
     Trains the model on the training dataset and logs the training progress.
     """
-    
+
     model.train()
     # start a new wandb run to track this script
     """wandb.init(project="my-plr-ml-project",
@@ -107,6 +108,7 @@ def test(model, device, test_loader, epoch):
     """
 
     model.eval()
+   
     test_loss = 0
     correct = 0
 
@@ -121,6 +123,16 @@ def test(model, device, test_loader, epoch):
 
     test_loss /= len(test_loader.dataset)
     accuracy = 100.0 * correct / len(test_loader.dataset)
+
+    log_image_interval = 1
+    if epoch % log_image_interval == 0:  # Log images every 'log_image_interval' epochs
+        images = data.cpu().numpy()[:10]  # Log first 10 images of the batch
+        preds = pred.squeeze().cpu().numpy()[:10]
+        actuals = target.cpu().numpy()[:10]
+
+        for i, (img, pred, actual) in enumerate(zip(images, preds, actuals)):
+            wandb.log({"test_images": [wandb.Image(img, caption=f"Pred: {pred}, Actual: {actual}")]})
+
 
     print(
         "\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n".format(
