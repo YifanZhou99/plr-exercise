@@ -17,3 +17,4 @@ setup(
     dependencies=["https://download.pytorch.org/whl/torch-2.1.0+cu121-cp38-cp38-linux_x86_64.whl"],
     dependency_links=["https://download.pytorch.org/whl/torch-2.1.0+cu121-cp38-cp38-linux_x86_64.whl"],
 )
+
