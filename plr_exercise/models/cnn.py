@@ -5,6 +5,14 @@ import torch.nn.functional as F
 
 
 class Net(nn.Module):
+    """
+    A simple convolutional neural network model for image classification tasks.
+
+    The network consists of two convolutional layers followed by two fully connected layers.
+    Dropout is applied after each convolutional layer and the first fully connected layer
+    to prevent overfitting.
+    """
+     
     def __init__(self):
 
         super(Net, self).__init__()
@@ -16,6 +24,15 @@ class Net(nn.Module):
         self.fc2 = nn.Linear(128, 10)
 
     def forward(self, x):
+        """
+        Defines the forward pass of the network.
+
+        Args:
+            x (torch.Tensor): The input tensor containing the data.
+
+        Returns:
+            torch.Tensor: The output tensor after passing through the network.
+        """
         x = self.conv1(x)
         x = F.relu(x)
         x = self.conv2(x)
