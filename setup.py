@@ -5,7 +5,8 @@ INSTALL_REQUIRES = [
     "numpy",
     "torch>=1.21",
     "torch",
-    "torchvision"
+    "torchvision",
+    "wandb"
 
 ]
 setup(
